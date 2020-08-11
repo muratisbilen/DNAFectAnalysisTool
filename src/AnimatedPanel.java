@@ -13,7 +13,7 @@ public class AnimatedPanel extends javax.swing.JPanel {
         super.paintComponent(g);
         try{
             //ImageIcon ii = new ImageIcon(new File("C:/Users/murat/Desktop/DNAFect/Web Sitesi/GIFs/dna.gif").toURI().toURL());
-            ImageIcon ii = new ImageIcon(new File("Logo/mygif2.gif").toURI().toURL());
+            ImageIcon ii = new ImageIcon(new File("Logo/mygif3.gif").toURI().toURL());
             //g.drawImage(ii.getImage(), 0, 0, this);
             g.drawImage(ii.getImage(), 0, 0,1920,1080, this);
         }catch(Exception e){
